@@ -282,7 +282,7 @@ const pages = [
 <li class="chorus">სინათლეს, სიყვარულს ავლენ,</li>
 <li class="chorus chorus-bottom">ძეში სიცოცხლეს გვაძლევ!</li>
 <li class="number">2. სიყვარულში შენს არსს ვხედავთ</li>
-<li>სინათლეში _ შენს საქმეთ;</li>
+<li>სინათლეში - შენს საქმეთ;</li>
 <li>შინაგანი სიყვარული</li>
 <li>თან სდევს გარეგნულ ნათელს.</li>
 <li class="chorus chorus-top">ძეში ხარ სიცოცხლე,</li>
@@ -315,7 +315,7 @@ const pages = [
 <li class="chorus chorus-bottom">ძეში სიცოცხლეს გვაძლევ!</li>
 <li class="number">6. სინათლით, გამწმენდი სისხლით</li>
 <li>შევიცნობთ ცხებულებას;</li>
-<li>შენი არსი _ სიყვარული</li>
+<li>შენი არსი - სიყვარული</li>
 <li>ჩვენში მეტად იღვრება.</li>
 <li class="chorus chorus-top">ძეში ხარ სიცოცხლე,</li>
 <li class="chorus">სიყვარულო! სინათლევ!</li>
