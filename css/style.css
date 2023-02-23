@@ -221,11 +221,16 @@ h6 {
   display: none; }
 
 h3 {
+  line-height: 55px;
+  text-align: center;
   font-weight: 700;
   margin-top: 50px; }
   @media (max-width: 767.98px) {
     h3 {
-      margin-top: calc(30px + 20 * ((100vw - 320px) / 447.98)); } }
+      line-height: calc(25px + 30 * ((100vw - 320px) / 447.98)); } }
+  @media (max-width: 767.98px) {
+    h3 {
+      margin-top: calc(25px + 25 * ((100vw - 320px) / 447.98)); } }
 
 h4 {
   line-height: 55px;

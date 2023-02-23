@@ -137,8 +137,10 @@
 }
 //=============================================================//
 h3 {
+	@include adaptive-value("line-height", 55, 25, 1);
+	text-align: center;
 	font-weight: 700;
-	@include adaptive-value("margin-top", 50, 30, 1);
+	@include adaptive-value("margin-top", 50, 25, 1);
 }
 h4 {
 	@include adaptive-value("line-height", 55, 25, 1);
