@@ -1,0 +1,198 @@
+@import "nullstyle.scss";
+@import "fonts.scss";
+@import "adaptive-value.scss";
+
+/*!!!*dont touch!!!*/
+.wrapper,
+.str-container {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	font-family: $font;
+	max-width: $mobile;
+	margin: 0px auto;
+	background-color: $bg-color;
+}
+//=============================================================//
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: rem(50) rem(15) rem(100) rem(15);
+	& > *:not(:last-child) {
+		margin-bottom: rem(20);
+	}
+}
+.input-label {
+	font-weight: 700;
+	@include adaptive-value("font-size", 30, 20, 1);
+	color: green;
+	text-align: center;
+}
+.input {
+	font-size: rem(45);
+	@include adaptive-value("width", 320, 280, 1);
+	border: 2px solid grey;
+	border-radius: rem(5);
+	padding: 0 rem(10);
+	display: flex;
+	&::placeholder {
+		font-size: rem(30);
+		@include adaptive-value("font-size", 30, 28, 1);
+		text-align: center;
+	}
+	&:focus {
+		border: 2px solid green;
+		&::placeholder {
+			font-size: 0;
+		}
+	}
+}
+.i-btn {
+	@include adaptive-value("width", 320, 280, 1);
+	font-size: rem(40);
+	background-color: green;
+	color: white;
+	padding: rem(5) rem(15);
+	border-radius: rem(5);
+}
+//=============================================================//
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: green;
+	position: fixed;
+	padding: rem(3) rem(20);
+	@include adaptive-value("width", 767.98, 320, 1);
+}
+.gimnNum,
+.search {
+	font-size: $icon-size;
+	color: white;
+	background-color: green;
+}
+.gNum {
+	display: none;
+}
+//=============================================================//
+.hymns-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	margin-bottom: rem(100);
+	@include adaptive-value("font-size", 40, 18, 1);
+	padding: rem(40) rem(15) rem(0) rem(15);
+}
+//=============================================================//
+.footer {
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: green;
+	padding: rem(3) rem(20);
+	@include adaptive-value("width", 767.98, 320, 1);
+}
+.play-buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.play-stop {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: rem(20);
+}
+
+.btn {
+	background-color: transparent;
+	color: white;
+	font-size: rem(25);
+	&:not(:last-child) {
+		margin-right: rem(20);
+	}
+}
+.icon-play,
+.icon-stop,
+.icon-pause,
+.icon-prev,
+.icon-next {
+	color: white;
+	font-size: $icon-size;
+	background-color: green;
+}
+//=============================================================//
+.hide {
+	visibility: hidden;
+}
+.none {
+	display: none;
+}
+//=============================================================//
+h3 {
+	font-weight: 700;
+	@include adaptive-value("margin-top", 50, 30, 1);
+}
+h4 {
+	@include adaptive-value("margin-top", 15, 5, 1);
+	@include adaptive-value("margin-bottom", 15, 5, 1);
+}
+.number {
+	margin-top: rem(20);
+	@include adaptive-value("margin-left", 10, 0, 1);
+}
+
+li {
+	@include adaptive-value("line-height", 55, 20, 1);
+	@include adaptive-value("margin-left", 55, 20, 1);
+}
+//=============================================================//
+.str-container {
+	padding: rem(0) rem(5);
+}
+.str-li {
+	margin: 0;
+	text-align: center;
+	font-weight: 700;
+	@include adaptive-value("font-size", 24, 18, 1);
+	padding: rem(12) rem(10);
+	border-radius: rem(3);
+	background-color: green;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&:first-child {
+		margin-top: rem(20);
+	}
+	&:not(:last-child) {
+		margin-bottom: rem(2);
+	}
+	span {
+		font-size: rem(24);
+		margin-left: rem(20);
+		color: gold;
+	}
+}
+.chorus {
+	color: blue;
+}
+.chorus-top {
+	margin-top: rem(20);
+}
+.chorus-bottom {
+	margin-bottom: rem(20);
+}
+//=============================================================//
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}

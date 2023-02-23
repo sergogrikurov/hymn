@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title></title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/icons.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="#">
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="main">
+			<h1 class="input-label">ჰიმნები(1-800)</h1>
+			<input type="number" class="input inputNum" maxlength="3" placeholder="ჩაწერე ნომერი" tabindex="-1">
+			<h2 class="input-label">მინიმუმ რვა სიმბოლო</h2>
+			<input type="text" class="input inputText" placeholder="ჩაწერე სიტყვები" tabindex="-1">
+			<button class="i-btn">ძიება</button>
+		</main>
+		<div class="himn-wrapper none">
+			<header class="header">
+				<p class="gimnNum"></p>
+				<button class="search icon-search"></button>
+			</header>
+			<div class="hymns-container"></div>
+			<footer class="footer">
+				<div class="play-buttons">
+					<div class="play-stop">
+						<button class="play icon-play"></button>
+						<button class="pause icon-pause"></button>
+					</div>
+					<button class="stop icon-stop"></button>
+				</div>
+				<div class="buttons">
+					<button class="prev btn icon-prev"></button>
+					<button class="next btn icon-next"></button>
+				</div>
+			</footer>
+		</div>
+		<div class="str-container none"></div>
+	</div>
+	<script src="js/list.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
