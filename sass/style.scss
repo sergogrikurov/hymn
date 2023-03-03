@@ -20,7 +20,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	padding: rem(50) rem(15) rem(100) rem(15);
+	padding: rem(30) rem(15) rem(100) rem(15);
 	& > *:not(:last-child) {
 		margin-bottom: rem(20);
 	}
@@ -28,7 +28,7 @@
 .input-label {
 	font-weight: 700;
 	@include adaptive-value("font-size", 30, 20, 1);
-	color: green;
+	color: $green-color;
 	text-align: center;
 }
 .input {
@@ -44,26 +44,68 @@
 		text-align: center;
 	}
 	&:focus {
-		border: 2px solid green;
+		border: 2px solid $green-color;
+		box-shadow: 0px 0px 3px 0px $green-color;
 		&::placeholder {
 			font-size: 0;
 		}
 	}
 }
+
+.h-btn,
 .i-btn {
 	@include adaptive-value("width", 320, 280, 1);
 	font-size: rem(40);
-	background-color: green;
-	color: white;
-	padding: rem(5) rem(15);
+	align-items: center;
+	appearance: none;
+	background-image: radial-gradient(100% 100% at 100% 0, #5aff83 0, $green-color 100%);
+	border: 0;
 	border-radius: rem(5);
+	box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+		rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+	box-sizing: border-box;
+	color: #fff;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 1;
+	list-style: none;
+	overflow: hidden;
+	position: relative;
+	text-align: left;
+	text-decoration: none;
+	transition: box-shadow 0.15s, transform 0.15s;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	white-space: nowrap;
+	will-change: box-shadow, transform;
+	padding: rem(7) rem(0) rem(15) rem(0);
+	&:focus {
+		box-shadow: $green-color 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+			rgba(45, 35, 66, 0.3) 0 7px 13px -3px, $green-color 0 -3px 0 inset;
+	}
+	&:hover {
+		box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, $green-color 0 -3px 0 inset;
+		transform: translateY(-2px);
+	}
+	&:active {
+		box-shadow: $green-color 0 3px 7px inset;
+		transform: translateY(2px);
+	}
+}
+
+.h-btn {
+	padding: rem(5);
+	border-radius: 50%;
+	width: rem(54);
 }
 //=============================================================//
 .header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: green;
+	background-color: $green-color;
 	position: fixed;
 	padding: rem(3) rem(20);
 	@include adaptive-value("width", 767.98, 320, 1);
@@ -72,7 +114,10 @@
 .search {
 	font-size: $icon-size;
 	color: white;
-	background-color: green;
+	background-color: $green-color;
+}
+.gimnNum span {
+	color: gold;
 }
 .gNum {
 	display: none;
@@ -95,7 +140,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: green;
+	background-color: $green-color;
 	padding: rem(3) rem(20);
 	@include adaptive-value("width", 767.98, 320, 1);
 }
@@ -126,7 +171,7 @@
 .icon-next {
 	color: white;
 	font-size: $icon-size;
-	background-color: green;
+	background-color: $green-color;
 }
 //=============================================================//
 .hide {
@@ -158,17 +203,19 @@ li {
 	@include adaptive-value("margin-left", 55, 20, 1);
 }
 //=============================================================//
-.str-container {
+.str-container,
+.itemsList {
 	padding: rem(0) rem(5);
 }
-.str-li {
+.str-li,
+.h-str-li {
 	margin: 0;
 	text-align: center;
 	font-weight: 700;
 	@include adaptive-value("font-size", 24, 18, 1);
 	padding: rem(12) rem(10);
 	border-radius: rem(3);
-	background-color: green;
+	background-color: $green-color;
 	color: white;
 	display: flex;
 	justify-content: space-between;

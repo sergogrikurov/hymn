@@ -94,14 +94,14 @@ h6 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 3.125rem 0.9375rem 6.25rem 0.9375rem; }
+  padding: 1.875rem 0.9375rem 6.25rem 0.9375rem; }
   .main > *:not(:last-child) {
     margin-bottom: 1.25rem; }
 
 .input-label {
   font-weight: 700;
   font-size: 30px;
-  color: green;
+  color: #03c727;
   text-align: center; }
   @media (max-width: 767.98px) {
     .input-label {
@@ -125,26 +125,65 @@ h6 {
       .input::placeholder {
         font-size: calc(28px + 2 * ((100vw - 320px) / 447.98)); } }
   .input:focus {
-    border: 2px solid green; }
+    border: 2px solid #03c727;
+    box-shadow: 0px 0px 3px 0px #03c727; }
     .input:focus::placeholder {
       font-size: 0; }
 
+.h-btn,
 .i-btn {
   width: 320px;
   font-size: 2.5rem;
-  background-color: green;
-  color: white;
-  padding: 0.3125rem 0.9375rem;
-  border-radius: 0.3125rem; }
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5aff83 0, #03c727 100%);
+  border: 0;
+  border-radius: 0.3125rem;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  padding: 0.4375rem 0rem 0.9375rem 0rem; }
   @media (max-width: 767.98px) {
+    .h-btn,
     .i-btn {
       width: calc(280px + 40 * ((100vw - 320px) / 447.98)); } }
+  .h-btn:focus,
+  .i-btn:focus {
+    box-shadow: #03c727 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #03c727 0 -3px 0 inset; }
+  .h-btn:hover,
+  .i-btn:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #03c727 0 -3px 0 inset;
+    transform: translateY(-2px); }
+  .h-btn:active,
+  .i-btn:active {
+    box-shadow: #03c727 0 3px 7px inset;
+    transform: translateY(2px); }
+
+.h-btn {
+  padding: 0.3125rem;
+  border-radius: 50%;
+  width: 3.375rem; }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: green;
+  background-color: #03c727;
   position: fixed;
   padding: 0.1875rem 1.25rem;
   width: 767.98px; }
@@ -156,7 +195,10 @@ h6 {
 .search {
   font-size: 2.75rem;
   color: white;
-  background-color: green; }
+  background-color: #03c727; }
+
+.gimnNum span {
+  color: gold; }
 
 .gNum {
   display: none; }
@@ -180,7 +222,7 @@ h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: green;
+  background-color: #03c727;
   padding: 0.1875rem 1.25rem;
   width: 767.98px; }
   @media (max-width: 767.98px) {
@@ -212,7 +254,7 @@ h6 {
 .icon-next {
   color: white;
   font-size: 2.75rem;
-  background-color: green; }
+  background-color: #03c727; }
 
 .hide {
   visibility: hidden; }
@@ -264,29 +306,35 @@ li {
     li {
       margin-left: calc(20px + 35 * ((100vw - 320px) / 447.98)); } }
 
-.str-container {
+.str-container,
+.itemsList {
   padding: 0rem 0.3125rem; }
 
-.str-li {
+.str-li,
+.h-str-li {
   margin: 0;
   text-align: center;
   font-weight: 700;
   font-size: 24px;
   padding: 0.75rem 0.625rem;
   border-radius: 0.1875rem;
-  background-color: green;
+  background-color: #03c727;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center; }
   @media (max-width: 767.98px) {
-    .str-li {
+    .str-li,
+    .h-str-li {
       font-size: calc(18px + 6 * ((100vw - 320px) / 447.98)); } }
-  .str-li:first-child {
+  .str-li:first-child,
+  .h-str-li:first-child {
     margin-top: 1.25rem; }
-  .str-li:not(:last-child) {
+  .str-li:not(:last-child),
+  .h-str-li:not(:last-child) {
     margin-bottom: 0.125rem; }
-  .str-li span {
+  .str-li span,
+  .h-str-li span {
     font-size: 1.5rem;
     margin-left: 1.25rem;
     color: gold; }
