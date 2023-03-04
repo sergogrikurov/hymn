@@ -95,40 +95,66 @@ h6 {
   align-items: center;
   flex-direction: column;
   padding: 1.875rem 0.9375rem 6.25rem 0.9375rem; }
-  .main > *:not(:last-child) {
-    margin-bottom: 1.25rem; }
 
 .input-label {
-  font-weight: 700;
   font-size: 30px;
   color: #03c727;
-  text-align: center; }
+  text-align: center;
+  text-shadow: 3px 2px 0px #c5d7c9; }
   @media (max-width: 767.98px) {
     .input-label {
       font-size: calc(20px + 10 * ((100vw - 320px) / 447.98)); } }
 
+.i-btn,
+.inputNum {
+  margin: 1.25rem 0rem; }
+
 .input {
+  box-shadow: 3px 3px 3px 0px gray;
   font-size: 2.8125rem;
   width: 320px;
   border: 2px solid grey;
   border-radius: 0.3125rem;
   padding: 0 0.625rem;
-  display: flex; }
+  position: relative; }
   @media (max-width: 767.98px) {
     .input {
       width: calc(280px + 40 * ((100vw - 320px) / 447.98)); } }
   .input::placeholder {
+    position: absolute;
+    top: 9px;
+    left: 20px;
     font-size: 1.875rem;
-    font-size: 30px;
-    text-align: center; }
+    font-size: 30px; }
     @media (max-width: 767.98px) {
       .input::placeholder {
         font-size: calc(28px + 2 * ((100vw - 320px) / 447.98)); } }
   .input:focus {
     border: 2px solid #03c727;
-    box-shadow: 0px 0px 3px 0px #03c727; }
+    box-shadow: 3px 3px 3px 0px #03c727; }
     .input:focus::placeholder {
       font-size: 0; }
+
+.inputText__modal {
+  margin-top: 0.1875rem;
+  border: 2px solid red;
+  box-shadow: 3px 3px 3px 0px red;
+  border-radius: 0.3125rem;
+  z-index: 2;
+  padding: 0.625rem 0.625rem;
+  width: 320px;
+  background-color: #fff;
+  text-align: center;
+  color: red;
+  font-size: 20px;
+  line-height: 1.875rem;
+  transition: all 0.3s ease; }
+  @media (max-width: 767.98px) {
+    .inputText__modal {
+      width: calc(280px + 40 * ((100vw - 320px) / 447.98)); } }
+  @media (max-width: 767.98px) {
+    .inputText__modal {
+      font-size: calc(18px + 2 * ((100vw - 320px) / 447.98)); } }
 
 .h-btn,
 .i-btn {
@@ -191,19 +217,19 @@ h6 {
     .header {
       width: calc(320px + 447.98 * ((100vw - 320px) / 447.98)); } }
 
-.gimnNum,
+.hymnNum,
 .search {
   font-size: 2.75rem;
   color: white;
   background-color: #03c727; }
 
-.gimnNum span {
+.hymnNum span {
   color: gold; }
 
-.gNum {
+.hNum {
   display: none; }
 
-.hymns-container {
+.hymn-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -213,7 +239,7 @@ h6 {
   font-size: 40px;
   padding: 2.5rem 0.9375rem 0rem 0.9375rem; }
   @media (max-width: 767.98px) {
-    .hymns-container {
+    .hymn-container {
       font-size: calc(18px + 22 * ((100vw - 320px) / 447.98)); } }
 
 .footer {
@@ -261,6 +287,14 @@ h6 {
 
 .none {
   display: none; }
+
+.height-none {
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+  transition: all 0.3s ease; }
 
 h3 {
   line-height: 55px;

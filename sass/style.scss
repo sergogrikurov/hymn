@@ -21,35 +21,55 @@
 	align-items: center;
 	flex-direction: column;
 	padding: rem(30) rem(15) rem(100) rem(15);
-	& > *:not(:last-child) {
-		margin-bottom: rem(20);
-	}
 }
 .input-label {
-	font-weight: 700;
 	@include adaptive-value("font-size", 30, 20, 1);
 	color: $green-color;
 	text-align: center;
+	text-shadow: 3px 2px 0px #c5d7c9;
+}
+.i-btn,
+.inputNum {
+	margin: rem(20) rem(0);
 }
 .input {
+	box-shadow: 3px 3px 3px 0px gray;
 	font-size: rem(45);
 	@include adaptive-value("width", 320, 280, 1);
 	border: 2px solid grey;
 	border-radius: rem(5);
 	padding: 0 rem(10);
-	display: flex;
+	position: relative;
 	&::placeholder {
+		position: absolute;
+		top: 9px;
+		left: 20px;
 		font-size: rem(30);
 		@include adaptive-value("font-size", 30, 28, 1);
-		text-align: center;
 	}
 	&:focus {
 		border: 2px solid $green-color;
-		box-shadow: 0px 0px 3px 0px $green-color;
+		box-shadow: 3px 3px 3px 0px $green-color;
 		&::placeholder {
 			font-size: 0;
 		}
 	}
+}
+
+.inputText__modal {
+	margin-top: rem(3);
+	border: 2px solid red;
+	box-shadow: 3px 3px 3px 0px red;
+	border-radius: rem(5);
+	z-index: 2;
+	padding: rem(10) rem(10);
+	@include adaptive-value("width", 320, 280, 1);
+	background-color: #fff;
+	text-align: center;
+	color: red;
+	@include adaptive-value("font-size", 20, 18, 1);
+	line-height: rem(30);
+	transition: all 0.3s ease;
 }
 
 .h-btn,
@@ -110,20 +130,20 @@
 	padding: rem(3) rem(20);
 	@include adaptive-value("width", 767.98, 320, 1);
 }
-.gimnNum,
+.hymnNum,
 .search {
 	font-size: $icon-size;
 	color: white;
 	background-color: $green-color;
 }
-.gimnNum span {
+.hymnNum span {
 	color: gold;
 }
-.gNum {
+.hNum {
 	display: none;
 }
 //=============================================================//
-.hymns-container {
+.hymn-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -179,6 +199,14 @@
 }
 .none {
 	display: none;
+}
+.height-none {
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	padding: 0;
+	margin: 0;
+	transition: all 0.3s ease;
 }
 //=============================================================//
 h3 {

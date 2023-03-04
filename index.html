@@ -14,18 +14,19 @@
 <body>
 	<div class="wrapper">
 		<main class="main">
-			<h1 class="input-label">ჰიმნები(1-800)</h1>
+			<h1 class="input-label">ჰიმნები 1 - 800</h1>
 			<input type="number" class="input inputNum" maxlength="3" placeholder="ჩაწერე ნომერი" tabindex="-1">
 			<input type="text" class="input inputText" placeholder="ჩაწერე სიტყვები" tabindex="-1">
+			<div class="inputText__modal height-none">მინიმუმ რვა ასო ან შვიდი ასო და გამოტოვება</div>
 			<button class="i-btn">ძიება</button>
 			<button class="h-btn icon-history"></button>
 		</main>
-		<div class="himn-wrapper none">
+		<div class="hymn-wrapper none">
 			<header class="header">
-				<p class="gimnNum"><span></span></p>
+				<p class="hymnNum"><span></span></p>
 				<button class="search icon-search"></button>
 			</header>
-			<div class="hymns-container"></div>
+			<div class="hymn-container"></div>
 			<footer class="footer">
 				<div class="play-buttons">
 					<div class="play-stop">
@@ -41,7 +42,7 @@
 			</footer>
 		</div>
 		<div class="str-container none"></div>
-		<div class="himn-history none">
+		<div class="hymn-history none">
 			<ul class="itemsList"></ul>
 		</div>
 	</div>

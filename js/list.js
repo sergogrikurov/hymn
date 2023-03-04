@@ -3,7 +3,7 @@ const pages = [
 		title: title = 'ქება მარადჟამს ღმერთ მამას',
 		num: num = 1,
 		page: `
-		<h2 id="gNum" class="gNum">${num}</h2>
+		<h2 class="hNum">${num}</h2>
 		<h3>სამების კურთხევა</h3>
 <h4>მისი გეგმა</h4>
 <span>(ინგ. 1)</span>
@@ -39,7 +39,7 @@ const pages = [
 		title: title = 'ღმერთო მამა, თაყვანს გცემთ შენ!',
 		num: num = 2,
 		page: `
-	<h2  class="gNum">${num}</h2>
+	<h2  class="hNum">${num}</h2>
 	<h3>სამების კურთხევა</h3>
 	<h4>მისი მამობა</h4>
 	<span>(ინგ. 5)</span>
@@ -75,7 +75,7 @@ const pages = [
 		title: title = 'წმიდავ, წმიდავ, წმიდავ! ო, ღმერთო ძლიერო!',
 		num: num = 3,
 		page: `
-	<h2  class="gNum">${num}</h2>
+	<h2  class="hNum">${num}</h2>
 		<h3>სამების კურთხევა</h3>
 	<h4>მისი თაყვანისცემა</h4>
 	<span>(ინგ. 6)</span>
@@ -99,7 +99,7 @@ const pages = [
 		title: title = 'დიდება, დიდება მამას!',
 		num: num = 4,
 		page: `
-	<h2 class="gNum">${num}</h2>
+	<h2 class="hNum">${num}</h2>
 	<h3>სამების კურთხევა</h3>
 <h4>მისი ქება</h4>
 <span>(ინგ. 7)</span>
@@ -127,7 +127,7 @@ const pages = [
 		title: title = 'ყველაფრის წყაროს, ღმერთს, ქება!',
 		num: num = 5,
 		page: `
-<h2 class="gNum">${num}</h2>
+<h2 class="hNum">${num}</h2>
 <h3>სამების კურთხევა</h3>
 <h4>მისი ქება</h4>
 <span>(ინგ. 8)</span>
@@ -148,7 +148,7 @@ const pages = [
 		title: title = ' ო ღმერთო, მამავ მარადო,',
 		num: num = 6,
 		page: `
-<h2 class="gNum">${num}</h2>
+<h2 class="hNum">${num}</h2>
 <h3>მამის თაყვანისცემა</h3>
 <h4>როგორც მარადიულის</h4>
 <span>(ინგ. 10)</span>
@@ -184,7 +184,7 @@ const pages = [
 		title: title = 'მამავ, ჭეშმარიტო სულო,',
 		num: num = 7,
 		page: `
-<h2 class="gNum">${num}</h2>
+<h2 class="hNum">${num}</h2>
 <h3>მამის თაყვანისცემა</h3>
 <h4>როგორც სულის</h4>
 <span>(ინგ. 11)</span>
@@ -228,7 +228,7 @@ const pages = [
 		title: title = 'სიცოცხლის წყარო ხარ, ღმერთო,',
 		num: num = 8,
 		page: `
-<h2 class="gNum">${num}</h2>
+<h2 class="hNum">${num}</h2>
 <h3>მამის თაყვანისცემა</h3>
 <h4>როგორც სიცოცხლის სათავის</h4>
 <span>(ინგ. 12)</span>
@@ -268,7 +268,7 @@ const pages = [
 		title: title = 'უფალო, ხარ სიყვარული,',
 		num: num = 9,
 		page: `
-<h2 class="gNum">${num}</h2>
+<h2 class="hNum">${num}</h2>
 <h3>მამის თაყვანისცემა</h3>
 <h4>როგორც სიყვარულის და სინათლის</h4>
 <span>(ინგ. 13)</span>
@@ -336,7 +336,7 @@ const pages = [
 		title: title = 'უკვდავო, ბრძენო, უხილავო ღმერთო,',
 		num: num = 10,
 		page: `
-<h2 class="gNum">${num}</h2>
+<h2 class="hNum">${num}</h2>
 <h3>მამის თაყვანისცემა</h3>
 <h4>მისი უკვდავება</h4>
 <span>(ინგ. 14)</span>
