@@ -27,7 +27,7 @@ header,
 aside {
 	display: block;
 }
-
+$bg-color: rgb(249, 242, 192);
 html,
 body {
 	height: 100%;
@@ -38,6 +38,7 @@ body {
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
+	background-color: $bg-color;
 }
 
 input,
@@ -101,5 +102,5 @@ $mobile: 767.98px;
 $font: "Noto Serif Georgian", serif;
 $main-color: #000;
 $green-color: #03c727;
-$bg-color: rgb(249, 242, 192);
+
 $icon-size: rem(44);
