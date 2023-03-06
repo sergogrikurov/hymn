@@ -96,7 +96,7 @@ iBtn.addEventListener('click', () => {
 const inputTextModal = document.querySelector('.inputText__modal');
 
 iBtn.addEventListener('click', () => {
-	const dadaText = inputText.value;
+	const dadaText = inputText.value.trim();
 	if (dadaText !== '' && dadaText.length < 8) {
 		inputTextModal.classList.remove('height-none');
 		inputNum.addEventListener('click', () => {

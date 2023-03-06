@@ -128,6 +128,7 @@
 	position: fixed;
 	padding: rem(3) rem(20);
 	@include adaptive-value("width", 767.98, 320, 1);
+	z-index: 2;
 }
 .hymnNum,
 .search {
@@ -162,6 +163,7 @@
 	background-color: $green-color;
 	padding: rem(3) rem(20);
 	@include adaptive-value("width", 767.98, 320, 1);
+	z-index: 2;
 }
 .play-buttons {
 	display: flex;
@@ -219,15 +221,25 @@ h4 {
 	text-align: center;
 	@include adaptive-value("margin-top", 15, 5, 1);
 	@include adaptive-value("margin-bottom", 15, 5, 1);
+	position: relative;
 }
-.number {
+
+.full-hymn {
+	display: flex;
+	flex-direction: column;
+}
+section {
 	margin-top: rem(20);
-	@include adaptive-value("margin-left", 10, 0, 1);
+	display: flex;
+	span {
+		display: block;
+		@include adaptive-value("margin-right", 20, 6, 1);
+		@include adaptive-value("margin-top", 7, 2, 1);
+	}
 }
 
 li {
-	@include adaptive-value("line-height", 55, 20, 1);
-	@include adaptive-value("margin-left", 55, 20, 1);
+	@include adaptive-value("line-height", 55, 24, 1);
 }
 //=============================================================//
 .str-container,
