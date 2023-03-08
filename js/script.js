@@ -46,7 +46,7 @@ inputNum.oninput = function () {
 
 inputNum.addEventListener('input', e => {
 	e.target.value = e.target.value.replace(/^0/, '');
-	if (e.target.value > 20) { //потом заменить на 800
+	if (e.target.value > 30) { //потом заменить на 800
 		e.target.value = '';
 	}
 });
@@ -86,7 +86,7 @@ iBtn.addEventListener('click', () => {
 		if (hNs === 1) {
 			prev.classList.add('hide');
 		}
-		if (hNs === 20) {//поменять на 800
+		if (hNs === 30) {//поменять на 800
 			next.classList.add('hide');
 		}
 	}
@@ -141,11 +141,11 @@ iBtn.addEventListener('click', () => {
 				prev.classList.add('hide');
 				next.classList.remove('hide');
 			}
-			if (hNs === 20) {//поменять на 800
+			if (hNs === 30) {//поменять на 800
 				next.classList.add('hide');
 				prev.classList.remove('hide');
 			}
-			if (hNs > 1 && hNs < 20) {//поменять на 800
+			if (hNs > 1 && hNs < 30) {//поменять на 800
 				next.classList.remove('hide');
 				prev.classList.remove('hide');
 			}
@@ -184,7 +184,7 @@ next.onclick = function () {
 	songSrc();
 	let hnst = document.querySelector('.hymnNum span').textContent
 	let hNs = Number(hnst);
-	if (hNs === 20) {//поменять на 800
+	if (hNs === 30) {//поменять на 800
 		next.classList.add('hide');
 	}
 }
@@ -279,7 +279,7 @@ function addItem() {
 		items = JSON.parse(localStorage.getItem('items'));
 		strCreate();
 		const arr = [...new Set(items)];
-		if (arr.length > 20) {
+		if (arr.length > 20) {//не менять!!!
 			arr.shift();
 			items = [];
 			localStorage.setItem('items', JSON.stringify(arr));
@@ -339,12 +339,12 @@ hBtn.onclick = function () {
 					prev.classList.add('hide');
 					next.classList.remove('hide');
 				}
-				if (hNs === 20) {//поменять на 800
+				if (hNs === 30) {//поменять на 800
 					next.classList.add('hide');
 					prev.classList.remove('hide');
 				}
 
-				if (hNs > 1 && hNs < 20) {//поменять на 800
+				if (hNs > 1 && hNs < 30) {//поменять на 800
 					next.classList.remove('hide');
 					prev.classList.remove('hide');
 				}
