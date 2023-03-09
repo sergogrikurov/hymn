@@ -2603,6 +2603,652 @@ const pages = [
 </main>
 `
 	},
+	{
+		title: title = 'ო მამავ, სიხარულით გიმღერით,',
+		num: num = 41,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3>მამის თაყვანისცემა</h3>
+<h4>მისი ქება მრავალი ძისგან</h4>
+<span>(ინგ. 52)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>შენი ვართ ჩვენ;</li>
+<li>შენს თანდასწრებაში განგადიდებთ,</li>
+<li>მხოლოდ შენ ერთს;</li>
+<li>სახლში შენთან მადლით დაგვაბრუნე;</li>
+<li>შენს ძესთან ადგილი გვიწილადე.</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>ღრმა სიხარული გვავსებს, სიყვარულს</li>
+<li>აქ შევიცნობთ!</li>
+<li>ღმერთო მამავ, შენს სიყვარულს ვხედავთ</li>
+<li>ძეში მხოლოდ;</li>
+<li>მშვიდობაში ის უძღვის მათ ქებას,</li>
+<li>ვინც შენმა სიყვარულმა აკურთხა.</li>
+</ul>
+</section>
+<section>
+<span class="number">3.</span>
+<ul>
+<li>ის მიუძღვის ქებას! შენს ყურს ატკბობს</li>
+<li>ძის სიმღერა!</li>
+<li>შენთვის ძვირფასია ყველა, ვინც ძეს</li>
+<li>შენთან მოჰყავს.</li>
+<li>ჩვენი ძედ გახდომა - ეს გსურდა შენ;</li>
+<li>დასაბამიდან, მამავ, გიყვარს ძე.</li>
+</ul>
+</section>
+</main>
+`
+	},
+	{
+		title: title = 'მამა ღმერთო, შენს სახელს ვადიდებთ',
+		num: num = 42,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3>მამის თაყვანისცემა</h3>
+<h4>მისი ქება მრავალი ძისგან</h4>
+<span>(ინგ. 53)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>ქრისტეში შენი სიყვარულისთვის.</li>
+<li>მან შენი ნებით იტვირთა ჯვარი</li>
+<li>მის წინ მდებარე სიხარულისთვის.</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>ის ძმათა შორის აღავლენს ქებას,</li>
+<li>მის სიმღერას ვისმენთ, გული ხარობს;</li>
+<li>დღეს, როდესაც ის აიმაღლებს ხმას,</li>
+<li>სულში მას ვუერთდებით, რომ გაქოთ.</li>
+</ul>
+</section>
+<section>
+<span class="number">3.</span>
+<ul>
+<li>ამოგვირჩიე საყვარელ ძეში,</li>
+<li>ჩვენ გვაქვს წილი სიხარულში შენ წინ;</li>
+<li>სოფლის შექმნამდე განგვსაზღვრე შენში</li>
+<li>ქვეყნისთვის, რომელშიც სუფევს მადლი.</li>
+</ul>
+</section>
+<section>
+<span class="number">4.</span>
+<ul>
+<li>საყვარელ ძეთ შენი სული გვავსებს,</li>
+<li>ქრისტე უსაზღვრო ხვედრია ჩვენში;</li>
+<li>ყოველ ჩვენგანში მკვიდრობს ის - შენი</li>
+<li>საუკუნო სიხარულისათვის!</li>
+</ul>
+</section>
+</main>
+`
+	},
+	{
+		title: title = 'ღმერთო მამავ, ჩვენ ქებას შენ გიძღვნით',
+		num: num = 43,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3>მამის თაყვანისცემა</h3>
+<h4>მისი ქება მრავალი ძისგან</h4>
+<span>(ინგ. 54)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>შენ ხარ ერთადერთი ღირსი ქების.</li>
+<li>შენ ეძებ მათ, ვინც გიმღერის სულში</li>
+<li>და თაყვანს გცემს ჭეშმარიტებაში.</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>ძის მიერ შექმენი ყველაფერი,</li>
+<li>სამყარო უჭირავს მის დიდ ძალას;</li>
+<li>ჩვენც მოვდივართ შენთან დიად ძეში,</li>
+<li>ო როგორ ვაფასებთ ამ წმიდა ჟამს!</li>
+</ul>
+</section>
+<section>
+<span class="number">3.</span>
+<ul>
+<li>ძეს მივყავართ კურთხეულ სფეროში,</li>
+<li>კრებულთა შორის გიმღერით ქებას;</li>
+<li>ძე ხარობს, რომ ჩვენ შენთან ვართ ახლოს,</li>
+<li>უხვად გვაძლევს სრულ თავისუფლებას!</li>
+</ul>
+</section>
+<section>
+<span class="number">4.</span>
+<ul>
+<li>ვართ ერთი, გიმღერით სიხარულით!</li>
+<li>ამით შენ კმაყოფილდები სრულად.</li>
+<li>ქრისტე, ძე, მიუძღვის მრავალ ქებას,</li>
+<li>რომელთა შორის მკვიდრდები მარად.</li>
+</ul>
+</section>
+</main>
+`
+	},
+	{
+		title: title = 'მამავ, სიცოცხლის სათავე ხარ.',
+		num: num = 44,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3>მამის თაყვანისცემა</h3>
+<h4>მისი სახელი, მისი სიტყვა, მისი დიდება</h4>
+<span>(ინგ. 1081)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>ძეები შენ გამოგხატავთ;</li>
+<li>შენი სახელი განძად გვაქვს.</li>
+<li>მამავ, სიცოცხლის სათავე ხარ.</li>
+<li class="chorus chorus-top">სიცოცხლეში, შენს სიცოცხლეში,</li>
+<li class="chorus">მამავ გაგვხადე ერთი;</li>
+<li class="chorus">სიცოცხელში, შენს სიცოცხლეში,</li>
+<li class="chorus chorus-bottom">მამავ, შენ ჩვენ გაგვხადე ერთი.</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>ო ღმერთო, შენი წმინდა სიტყვა,</li>
+<li>გამოგვყოფს წუთისოფლისგან;</li>
+<li>ის შენი ბუნებით გვჟღინთავს,</li>
+<li>ო, გემადლიერებით, მამავ.</li>
+<li class="chorus chorus-top">შენი სიტყვით, ო, შენი სიტყვით,</li>
+<li class="chorus">გვაქვს ერთობა ნამდვილი.</li>
+<li class="chorus">შენი სიტყვით, ო, შენი სიტყვით,</li>
+<li class="chorus chorus-bottom">მამავ, შენ ჩვენ გაგვხადე ერთი.</li>
+</ul>
+</section>
+<section>
+<span class="number">3.</span>
+<ul>
+<li>დიდება სამერთიანი ღვთის!</li>
+<li>გვაქვს კურთხევა მის ძედ ყოფნის.</li>
+<li>გამოვხატავთ მის დიდებას,</li>
+<li>დიდება სამერთიანი ღვთის!</li>
+<li class="chorus chorus-top">დიდებაში, შენს დიდებაში,</li>
+<li class="chorus">დიდებაში ვართ ერთი.</li>
+<li class="chorus">დიდებაში, შენს დიდებაში,</li>
+<li class="chorus chorus-bottom">მამავ, შენ ჩვენ გაგვხადე ერთი!</li>
+</ul>
+</section>
+</main>
+`
+	},
+	{
+		title: title = 'ძვირფასო უფალო, შენ ხარ',
+		num: num = 45,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3>უფლის ქება</h3>
+<h4>მისი ღვთაებრიობა</h4>
+<span>(ინგ. 56)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>ღვთის სიტყვა, მისი ძე;</li>
+<li>ღმერთის წმიდა სახება ხარ,</li>
+<li>ერთი ხარ მასთან შენ.</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>შენ ხარ ჭეშმარიტი ღმერთი,</li>
+<li>განკაცება მისი;</li>
+<li>შენში გამოვლინდა ღმერთი,</li>
+<li>ჩვენ მას ვხედავთ შენში.</li>
+</ul>
+</section>
+<section>
+<span class="number">3.</span>
+<ul>
+<li>ღვთის დიდების ბრწყინვალებავ,</li>
+<li>ღვთის ნათებავ ჩვენზე;</li>
+<li>მისი არსის ანაბეჭდო,</li>
+<li>შენში ვეხებით ღმერთს.</li>
+</ul>
+</section>
+<section>
+<span class="number">4.</span>
+<ul>
+<li>შენში ჩვენთვის ღმერთი არის</li>
+<li>სიცოცხლე, ნათელი;</li>
+<li>შენში მის ბუნებას ვერწყმით,</li>
+<li>ვხდებით მასთან ერთი.</li>
+</ul>
+</section>
+<section>
+<span class="number">5.</span>
+<ul>
+<li>შენში ღმერთის მადლი მკვიდრობს,</li>
+<li>ღმერთით ვტკბებით შენში;</li>
+<li>შენშია ჭეშმარიტება,</li>
+<li>სინამდვილე ღმერთის.</li>
+</ul>
+</section>
+<section>
+<span class="number">6.</span>
+<ul>
+<li>შენში ღვთის სისავსეს ვიღებთ -</li>
+<li>გვავსებს მადლი მადლზე.</li>
+<li>შენში ღმერთს ვერწყმით, რომ მასთან</li>
+<li>სრულად ერთი გავხდეთ.</li>
+</ul>
+</section>
+<section>
+<span class="number">7.</span>
+<ul>
+<li>უფალო, ღმერთო, თაყვანს გცემთ,</li>
+<li>შენში ვფლობთ ყველაფერს;</li>
+<li>გვიყვარს, რომ ვუხმობთ შენს სახელს,</li>
+<li>გულით შენ გაფასებთ.</li>
+</ul>
+</section>
+</main>
+`
+	},
+	{
+		title: title = 'შენში ვხედავთ მამა ღმერთის',
+		num: num = 46,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3>უფლის ქება</h3>
+<h4>მისი ღვთაებრიობა</h4>
+<span>(ინგ. 57)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>სახებას, უფალო;</li>
+<li>ღვთაების სისავსე შენში</li>
+<li>სხეულებრივ მკვიდრობს.</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>ღვთის საუკუნო სიტყვა ხარ,</li>
+<li>ღვთიური სიცოცხლე;</li>
+<li>შენში მის მადლს უხვად ვიღებთ,</li>
+<li>გვავსებს სინამდვილე.</li>
+</ul>
+</section>
+<section>
+<span class="number">3.</span>
+<ul>
+<li>დიდების ბრწყინვალება ხარ,</li>
+<li>ჭეშმარიტად ღვთის ძე;</li>
+<li>თვით ღმერთის არსებას შენში</li>
+<li>ვხედავთ და ვამოწმებთ.</li>
+</ul>
+</section>
+<section>
+<span class="number">4.</span>
+<ul>
+<li>შენ ხარ ღმერთის განკაცება -</li>
+<li>მარად ერთი მასთან;</li>
+<li>შენებრ ღმერთის გამოხატვას</li>
+<li>ვერავინ შეძლებდა.</li>
+</ul>
+</section>
+<section>
+<span class="number">5.</span>
+<ul>
+<li>შენში ვტკბებით ღმერთით როგორც</li>
+<li>სიცოცხლით, ყველაფრით;</li>
+<li>ღმერთს და შენ გიძღვნით მადლობას,</li>
+<li>და გაქებთ მარადის.</li>
+</ul>
+</section>
+</main>
+`
+	},
+	{
+		title: title = 'ო, შენ ხარ ცოცხალი სიტყვა,',
+		num: num = 47,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3>უფლის ქება</h3>
+<h4>მისიღვთიურობა</h4>
+<span>(ინგ. 58)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>მარად ღმერთთან მყოფი;</li>
+<li>დიდება სრულად აჩვენე,</li>
+<li>როცა აქ ცხოვრობდი.</li>
+<li class="chorus chorus-top">გაქებთ შენ, ცოცხალო სიტყვავ,</li>
+<li class="chorus">ჩვენ ღმერთს ვხედავთ შენში;</li>
+<li class="chorus">მის დიდებას და ხასიათს</li>
+<li class="chorus chorus-bottom">ავლენ სრულად შენით.</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>ღმერთის დიდებას ღაღადებს</li>
+<li>სამყარო, ქმნილება;</li>
+<li>მისი ძალა და ბუნება</li>
+<li>კაცისთვის ვლინდება.</li>
+<li class="chorus chorus-top">გაქებთ შენ, ცოცხალო სიტყვავ,</li>
+<li class="chorus">ჩვენ ღმერთს ვხედავთ შენში;</li>
+<li class="chorus">მის დიდებას და ხასიათს</li>
+<li class="chorus chorus-bottom">ავლენ სრულად შენით.</li>
+</ul>
+</section>
+<section>
+<span class="number">3.</span>
+<ul>
+<li>ღვთის სიტყვა მდიდარი, ღრმაა,</li>
+<li>ამოწმებს უფალზე;</li>
+<li>სიტყვაში გაგვეცხადე და</li>
+<li>ამით ღმერთი გვამცნე.</li>
+<li class="chorus chorus-top">გაქებთ შენ, ცოცხალო სიტყვავ,</li>
+<li class="chorus">ჩვენ ღმერთს ვხედავთ შენში;</li>
+<li class="chorus">მის დიდებას და ხასიათს</li>
+<li class="chorus chorus-bottom">ავლენ სრულად შენით.</li>
+</ul>
+</section>
+<section>
+<span class="number">4.</span>
+<ul>
+<li>დასაწყისში იყო სიტყვა,</li>
+<li>სიტყვა ხორცი გახდა;</li>
+<li>მისი ცხოვრებით და ქცევით</li>
+<li>ღმერთი გამოვლინდა.</li>
+<li class="chorus chorus-top">გაქებთ შენ, ცოცხალო სიტყვავ,</li>
+<li class="chorus">ჩვენ ღმერთს ვხედავთ შენში;</li>
+<li class="chorus">მის დიდებას და ხასიათს</li>
+<li class="chorus chorus-bottom">ავლენ სრულად შენით.</li>
+</ul>
+</section>
+<section>
+<span class="number">5.</span>
+<ul>
+<li>ცოცხალი სიტყვა ხარ, ღმერთო,</li>
+<li>ცოცხალი სინათლე;</li>
+<li>როგორც სიცოცხლე, მამაო,</li>
+<li>თვალთ გვაძლევ სინათლეს.</li>
+<li class="chorus chorus-top">გაქებთ შენ, ცოცხალო სიტყვავ,</li>
+<li class="chorus">ჩვენ ღმერთს ვხედავთ შენში;</li>
+<li class="chorus">მის დიდებას და ხასიათს</li>
+<li class="chorus chorus-bottom">ავლენ სრულად შენით.</li>
+</ul>
+</section>
+<section>
+<span class="number">6.</span>
+<ul>
+<li>ღვთის სამსჯავროს აღასრულებ,</li>
+<li>ხარ სამართლიანი;</li>
+<li>სრულად რომ გამოიხატო,</li>
+<li>აღსრულდეს მიზანი.</li>
+<li class="chorus chorus-top">გაქებთ შენ, ცოცხალო სიტყვავ,</li>
+<li class="chorus">ჩვენ ღმერთს ვხედავთ შენში;</li>
+<li class="chorus">მის დიდებას და ხასიათს</li>
+<li class="chorus chorus-bottom">ავლენ სრულად შენით.</li>
+</ul>
+</section>
+<section>
+<span class="number">7.</span>
+<ul>
+<li>ღმერთი ქრისტეში გაცხადდა,</li>
+<li>ის აღარ მალავს თავს.</li>
+<li>გვაჩვენა, ვინც არის ჩვენთვის,</li>
+<li>ღმერთი ყველამ ნახა.</li>
+<li class="chorus chorus-top">გაქებთ შენ, ცოცხალო სიტყვავ,</li>
+<li class="chorus">ჩვენ ღმერთს ვხედავთ შენში;</li>
+<li class="chorus">მის დიდებას და ხასიათს</li>
+<li class="chorus chorus-bottom">ავლენ სრულად შენით.</li>
+</ul>
+</section>
+</main>
+`
+	},
+	{
+		title: title = 'უფალო, შენ ხარ კაცის ძე,',
+		num: num = 48,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3>უფლის ქება</h3>
+<h4>მისი ადამიანობა</h4>
+<span>(ინგ. 61)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>ჩვენს ბუნებას ეზიარე;</li>
+<li>ქალწულისგან დაიბადე,</li>
+<li>სისხლსა და ხორცს ეზიარე.</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>მონის ფორმაში მორჩილი, </li>
+<li>ნატანჯ მიწაზე ხვიდოდი;</li>
+<li>ადამიანად ცხოვრობდი,</li>
+<li>ყველა ტანჯვას გადიოდი.</li>
+</ul>
+</section>
+<section>
+<span class="number">3.</span>
+<ul>
+<li>ბაგაში შენ ჩვილად იშვი,</li>
+<li>ღარიბთა შორის მოხვედი;</li>
+<li>როგორც დურგალი შრომობდი,</li>
+<li>ურჯულოს სიკვდილით მოკვდი.</li>
+</ul>
+</section>
+<section>
+<span class="number">4.</span>
+<ul>
+<li>შენ მკვდრეთით მაინც აღდექი,</li>
+<li>კვლავ როგორც ადამიანი;</li>
+<li>ღვთაებრივ ფორმაში კაცად,</li>
+<li>მაღლა ზეცაში ახვედი.</li>
+</ul>
+</section>
+<section>
+<span class="number">5.</span>
+<ul>
+<li>ახლა ტახტზე გაქვს ადგილი,</li>
+<li>განდიდებული ხარ კაცი;</li>
+<li>კაცი ღვთაებრივ ნათელში,</li>
+<li>დაკმაყოფილება ხარ ღვთის.</li>
+</ul>
+</section>
+<section>
+<span class="number">6.</span>
+<ul>
+<li>დიდებაში ისევ მოხვალ,</li>
+<li>როგორც კაცი გამოჩნდები;</li>
+<li>მეფეთ მეფედ ღმერთის ძალით,</li>
+<li>ადამიანის ბუნებით.</li>
+</ul>
+</section>
+<section>
+<span class="number">7.</span>
+<ul>
+<li>ახალ ცასა და მიწაზე,</li>
+<li>ყველაფრის ცენტრი იქნები;</li>
+<li>საუკუნოდ ღვთაებრივი,</li>
+<li>კაცობრიობაში მყოფი.</li>
+</ul>
+</section>
+</main>
+`
+	},
+	{
+		title: title = 'ჩვენო უფალო იესო,',
+		num: num = 49,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3></h3>
+<h4></h4>
+<span>(ინგ. 62)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>დედაკაცის თესლი ხარ;</li>
+<li>ქალწულისგან დაიბადე,</li>
+<li>იესო სახელი გაქვს.</li>
+<li>ადამიანი შენ გახდი</li>
+<li>გველი ფეხით გათელე,</li>
+<li>ჯვარზე თავი გაუჭეჭყე,</li>
+<li>ღვთის გეგმა აღასრულე</li>
+<li class="chorus chorus-top">ვხედავთ შენს დიდებას,</li>
+<li class="chorus">შენს განკაცებაში,</li>
+<li class="chorus">ბრწყინვალებას, გამოხატულს</li>
+<li class="chorus chorus-bottom">ადამიანში.</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>ღმერთო, შენი განკაცებით</li>
+<li>სისხლს და ხორცს ეზიარე;</li>
+<li>გაანადგურე ეშმაკი,</li>
+<li>დიდებას გვაზიარე.</li>
+<li>იესო გიწოდა მამამ,</li>
+<li>ემანუელი ხარ შენ,</li>
+<li>ძვირფასო გადამრჩენელო,</li>
+<li>ერთადერთი ხსნა ხარ შენ.</li>
+<li class="chorus chorus-top">ვხედავთ შენს დიდებას,</li>
+<li class="chorus">შენს განკაცებაში,</li>
+<li class="chorus">ბრწყინვალებას, გამოხატულს</li>
+<li class="chorus chorus-bottom">ადამიანში.</li>
+</ul>
+</section>
+<section>
+<span class="number">3.</span>
+<ul>
+<li>უკანასკნელი ადამი</li>
+<li>გახდი მეორე კაცი;</li>
+<li>ახალი ქმნილების თავი,</li>
+<li>მაცოცხლებელი სული.</li>
+<li>შენი ცხოვრებით მიწაზე</li>
+<li>ნამდვილი იყავ კაცი;</li>
+<li>ახლა ზეციურ ფარგლებში</li>
+<li>კვლავ ხარ ადამიანი.</li>
+<li class="chorus chorus-top">ვხედავთ შენს დიდებას,</li>
+<li class="chorus">შენს განკაცებაში,</li>
+<li class="chorus">ბრწყინვალებას, გამოხატულს</li>
+<li class="chorus chorus-bottom">ადამიანში.</li>
+</ul>
+</section>
+<section>
+<span class="number">4.</span>
+<ul>
+<li>ღმერთის დადგენილ დროს მოხვალ,</li>
+<li>ძვირფასო იესო, კვლავ;</li>
+<li>მამის დიდებით მოსილი,</li>
+<li>გამოჩნდები შენ კაცად.</li>
+<li>სამსჯავროს ტახტზე იქნები</li>
+<li>კვლავაც ადამიანი;</li>
+<li>ადამიანობა შენი</li>
+<li>ბუნება არის ჩვენი.</li>
+<li class="chorus chorus-top">ვხედავთ შენს დიდებას,</li>
+<li class="chorus">შენს განკაცებაში,</li>
+<li class="chorus">ბრწყინვალებას, გამოხატულს</li>
+<li class="chorus chorus-bottom">ადამიანში.</li>
+</ul>
+</section>
+</main>
+`
+	},
+	{
+		title: title = 'ეს სახელი გვიყვარს,',
+		num: num = 50,
+		page: `
+	<h2 class="hNum">${num}</h2>
+	<h3></h3>
+	<h4></h4>
+	<span>(ინგ. 65)</span>
+	<main class="full-hymn">
+	<section>
+	<span class="number">1.</span>
+	<ul>
+	<li>${title}</li>
+	<li>ო, იესო!</li>
+	<li>ზეგარდმო სახელი,</li>
+	<li>ო, უფალო!</li>
+	<li>უშენოდ, უფალო,</li>
+	<li>არ გვაქვს არაფერი;</li>
+	<li>შენ ხარ ყველაფერი,</li>
+	<li>ო, იესო!</li>
+	</ul>
+	</section>
+	<section>
+	<span class="number">2.</span>
+	<ul>
+	<li>შენ, როგორც კაცის ძე,</li>
+	<li>ხარ უფალი!</li>
+	<li>სიცოცხლე გაწირე,</li>
+	<li>დღეს ვართ ერთი.</li>
+	<li>ო, ეს სიყვარული</li>
+	<li>აღმატებულია;</li>
+	<li>ძლიერ შეგვიყვარე</li>
+	<li>ო, იესო!</li>
+	</ul>
+	</section>
+	<section>
+	<span class="number">3.</span>
+	<ul>
+	<li>სიმართლეა შენში,</li>
+	<li>ო, იესო!</li>
+	<li>ხარ თავშესაფარი,</li>
+	<li>ო, უფალო!</li>
+	<li>შფოთი, საზრუნავი</li>
+	<li>ვერაფერს დაგვაკლებს,</li>
+	<li>შენ ასე ახლოს ხარ,</li>
+	<li>ო, იესო!</li>
+	</ul>
+	</section>
+	<section>
+	<span class="number">4.</span>
+	<ul>
+	<li>მალე ისევ მოხვალ,</li>
+	<li>ო, იესო!</li>
+	<li>ძლიერ გავიხარებთ</li>
+	<li>ო, უფალო!</li>
+	<li>შენს სახეს ვიხილავთ,</li>
+	<li>ვიქნებით შენს მსგავსად;</li>
+	<li>დავტკბებით ერთობით,</li>
+	<li>ო, იესო!</li>
+	</ul>
+	</section>
+	</main>
+	`
+	},
 ];
 
 
