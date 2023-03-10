@@ -46,7 +46,7 @@ inputNum.oninput = function () {
 
 inputNum.addEventListener('input', e => {
 	e.target.value = e.target.value.replace(/^0/, '');
-	if (e.target.value > 50) { //потом заменить на 800
+	if (e.target.value > 60) { //потом заменить на 800
 		e.target.value = '';
 	}
 });
@@ -86,7 +86,7 @@ iBtn.addEventListener('click', () => {
 		if (hNs === 1) {
 			prev.classList.add('hide');
 		}
-		if (hNs === 50) {//поменять на 800
+		if (hNs === 60) {//поменять на 800
 			next.classList.add('hide');
 		}
 	}
@@ -141,11 +141,11 @@ iBtn.addEventListener('click', () => {
 				prev.classList.add('hide');
 				next.classList.remove('hide');
 			}
-			if (hNs === 50) {//поменять на 800
+			if (hNs === 60) {//поменять на 800
 				next.classList.add('hide');
 				prev.classList.remove('hide');
 			}
-			if (hNs > 1 && hNs < 50) {//поменять на 800
+			if (hNs > 1 && hNs < 60) {//поменять на 800
 				next.classList.remove('hide');
 				prev.classList.remove('hide');
 			}
@@ -185,7 +185,7 @@ next.onclick = function () {
 	songSrc();
 	let hnst = document.querySelector('.hymnNum span').textContent
 	let hNs = Number(hnst);
-	if (hNs === 50) {//поменять на 800
+	if (hNs === 60) {//поменять на 800
 		next.classList.add('hide');
 	}
 }
@@ -340,12 +340,12 @@ hBtn.onclick = function () {
 					prev.classList.add('hide');
 					next.classList.remove('hide');
 				}
-				if (hNs === 50) {//поменять на 800
+				if (hNs === 60) {//поменять на 800
 					next.classList.add('hide');
 					prev.classList.remove('hide');
 				}
 
-				if (hNs > 1 && hNs < 50) {//поменять на 800
+				if (hNs > 1 && hNs < 60) {//поменять на 800
 					next.classList.remove('hide');
 					prev.classList.remove('hide');
 				}
