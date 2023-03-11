@@ -3945,6 +3945,694 @@ const pages = [
 </main>
 `
 	},
+	{
+		title: title = 'უფალო, რა ახლოს ხარ მათთან, ვინც მოგიხმობს,',
+		num: num = 61,
+		page: `
+	<h2 class="hNum">${num}</h2>
+	<h3></h3>
+	<h4></h4>
+	<span>(ინგ. 1083)</span>
+	<main class="full-hymn">
+	<section>
+	<span class="number">1.</span>
+	<ul>
+	<li>${title}</li>
+	<li>ო, თანდასწრებით შინაგანად გვაძლიერებ.</li>
+	<li>მძებნელები გპოულობთ, მოგიხმობთ _ ახლოს ხარ,</li>
+	<li>ნუგეშს სცემს ჩვენს გულებს, როცა მოვუხმობთ შენს სახელს.</li>
+	<li class="chorus chorus-top">სახელი იესო!</li>
+	<li class="chorus">ო, ის მაცოცხლებელია,</li>
+	<li class="chorus">მძლეველი და დიდებული</li>
+	<li class="chorus">ყველაზე აღმატებული.</li>
+	<li class="chorus">ნუგეშისმცემელი,</li>
+	<li class="chorus">ო, გამაძლიერებელი,</li>
+	<li class="chorus">ამ სახელს შევისუნთქავთ ლოცვაში,</li>
+	<li class="chorus chorus-bottom">ჩვენს ძვირფას უფალ იესოს!</li>
+	</ul>
+	</section>
+	<section>
+	<span class="number">2.</span>
+	<ul>
+	<li>ყველა, ვინც მოუხმობს მის სახელს გადარჩება.</li>
+	<li>ო, უფალო იესო, მონობა დამთავრდა.</li>
+	<li>ვიღებთ გადარჩენის სასმისს უფლის მოხმობით,</li>
+	<li>ამ კურთხეულ სახელშია ჩვენი გადარჩენა.</li>
+	<li class="chorus chorus-top">სახელი იესო!</li>
+	<li class="chorus">ო, ის მაცოცხლებელია,</li>
+	<li class="chorus">მძლეველი და დიდებული</li>
+	<li class="chorus">ყველაზე აღმატებული.</li>
+	<li class="chorus">ნუგეშისმცემელი,</li>
+	<li class="chorus">ო, გამაძლიერებელი,</li>
+	<li class="chorus">ამ სახელს შევისუნთქავთ ლოცვაში,</li>
+	<li class="chorus chorus-bottom">ჩვენს ძვირფას უფალ იესოს!</li>
+	</ul>
+	</section>
+	<section>
+	<span class="number">3.</span>
+	<ul>
+	<li>უფალი მდიდარია მათთვის, ვინც მოუხმობს,</li>
+	<li>იუდეველიც, ბერძენიც მისთვის ერთია.</li>
+	<li>რა სიხარული, ტკბობაა უფლის მოხმობა,</li>
+	<li>ვსუნთქავთ შენს სახელს, ის ჭეშმარიტ სიცოცხლეს გვაძლევს.</li>
+	<li class="chorus chorus-top">სახელი იესო!</li>
+	<li class="chorus">ო, ის მაცოცხლებელია,</li>
+	<li class="chorus">მძლეველი და დიდებული</li>
+	<li class="chorus">ყველაზე აღმატებული.</li>
+	<li class="chorus">ნუგეშისმცემელი,</li>
+	<li class="chorus">ო, გამაძლიერებელი,</li>
+	<li class="chorus">ამ სახელს შევისუნთქავთ ლოცვაში,</li>
+	<li class="chorus chorus-bottom">ჩვენს ძვირფას უფალ იესოს!</li>
+	</ul>
+	</section>
+	<section>
+	<span class="number">4.</span>
+	<ul>
+	<li>ვპოვოთ სიხარული ჩვენს გადამრჩენელ ღმერთში.</li>
+	<li>მოვუხმობთ მის სახელს ყველგან, ყოველ ჟამს სულში.</li>
+	<li>სანამ ცოცხალი ვარ არ შევწყვეტ მის მოხმობას,</li>
+	<li>რადგან მან მომაპყრო ყური და უხვ მადლს იძლევა.</li>
+	<li class="chorus chorus-top">სახელი იესო!</li>
+	<li class="chorus">ო, ის მაცოცხლებელია,</li>
+	<li class="chorus">მძლეველი და დიდებული</li>
+	<li class="chorus">ყველაზე აღმატებული.</li>
+	<li class="chorus">ნუგეშისმცემელი,</li>
+	<li class="chorus">ო, გამაძლიერებელი,</li>
+	<li class="chorus">ამ სახელს შევისუნთქავთ ლოცვაში,</li>
+	<li class="chorus chorus-bottom">ჩვენს ძვირფას უფალ იესოს!</li>
+	</ul>
+	</section>
+	<section>
+	<span class="number">5.</span>
+	<ul>
+	<li>ჩვენ მოვუხმობთ, მას ვინც არის ღირსი დიდების.</li>
+	<li>ვაქებთ და მადლიერი გულებით თაყვანს ვცემთ.</li>
+	<li>ჩვენ ვართ ისინი, ვინც უხმობენ უფალს ყველგან,</li>
+	<li>მათთან ერთად, ვინც წრფელი გულით მადლი იგემა.</li>
+	<li class="chorus chorus-top">სახელი იესო!</li>
+	<li class="chorus">ო, ის მაცოცხლებელია,</li>
+	<li class="chorus">მძლეველი და დიდებული</li>
+	<li class="chorus">ყველაზე აღმატებული.</li>
+	<li class="chorus">ნუგეშისმცემელი,</li>
+	<li class="chorus">ო, გამაძლიერებელი,</li>
+	<li class="chorus">ამ სახელს შევისუნთქავთ ლოცვაში,</li>
+	<li class="chorus chorus-bottom">ჩვენს ძვირფას უფალ იესოს!</li>
+	</ul>
+	</section>
+	</main>
+	`
+	},
+	{
+		title: title = 'სახელი, როგორც მირონი,',
+		num: num = 62,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3></h3>
+<h4></h4>
+<span>(ინგ. 1084)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>ო, იესო, ო, იესო!</li>
+<li>სახელი, როგორც მირონი,</li>
+<li>სახელი, როგორც მირონი.</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>ქალწულებმა შეგიყვარეს,</li>
+<li>ო, იესო, ო, იესო!</li>
+<li>ქალწულებმა შეგიყვარეს,</li>
+<li>ქალწულებმა შეგიყვარეს.</li>
+</ul>
+</section>
+<section>
+<span class="number">3.</span>
+<ul>
+<li>სიყვარული _ ღვინის მჯობნი,</li>
+<li>ო, იესო, ო, იესო!</li>
+<li>სიყვარული ღვინის მჯობნი,</li>
+<li>სიყვარული ღვინის მჯობნი.</li>
+</ul>
+</section>
+<section>
+<span class="number">4.</span>
+<ul>
+<li>მიმიზიდე, რომ გამოგყვეთ,</li>
+<li>ო, იესო, ო, იესო!</li>
+<li>მიმიზიდე, რომ გამოგყვეთ,</li>
+<li>მიმიზიდე, რომ გამოგყვეთ.</li>
+</ul>
+</section>
+<section>
+<span class="number">5.</span>
+<ul>
+<li>მშვენიერი ხარ შენ, სატრფოვ,</li>
+<li>ო, იესო, ო, იესო!</li>
+<li>მშვენიერი ხარ შენ სატრფოვ,</li>
+<li>მშვენიერი ხარ შენ სატრფოვ.</li>
+</ul>
+</section>
+<section>
+<span class="number">6.</span>
+<ul>
+<li>ჩემს სამშვინველს შენ უყვარხარ,</li>
+<li>ო, იესო, ო, იესო!</li>
+<li>ჩემს სამშვინველს შენ უყვარხარ,</li>
+<li>ჩემს სამშვინველს შენ უყვარხარ.</li>
+</ul>
+</section>
+<section>
+<span class="number">7.</span>
+<ul>
+<li>მოგეკრობი, არ გაგიშვებ,</li>
+<li>ო, იესო, ო, იესო!</li>
+<li>მოგეკრობი, არ გაგიშვებ,</li>
+<li>მოგეკრობი, არ გაგიშვებ.</li>
+</ul>
+</section>
+<section>
+<span class="number">8.</span>
+<ul>
+<li>დააჩქარე მოსვლა, სატრფოვ,</li>
+<li>ო, იესო, ო, იესო!</li>
+<li>დააჩარე მოსვლა, სატრფოვ,</li>
+<li>დააჩქარე მოსვლა, სატრფოვ.</li>
+</ul>
+</section>
+<section>
+<span class="number">9.</span>
+<ul>
+<li>მთელი გულით გვიყვარხარ შენ.</li>
+<li>ო, იესო, ო, იესო!</li>
+<li>მთელი გულით გვიყვარხარ შენ,</li>
+<li>მთელი გულით გვიყვარხარ შენ.</li>
+</ul>
+</section>
+</main>
+`
+	},
+	{
+		title: title = 'ვმღერით უფლის სახელს,',
+		num: num = 63,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3></h3>
+<h4></h4>
+<span>(ინგ. 1085)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>ძლიერი ღმერთია,</li>
+<li>საკვირველმოქმედი,</li>
+<li>მყავს უფალი.</li>
+<li>ის ყრმა და ღვთის ძეა,</li>
+<li>საუკუნო მამა,</li>
+<li>მშვიდობის მთავარი,</li>
+<li>მყავს უფალი.</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>ის შემოქმედია,</li>
+<li>იესო მხსნელი,</li>
+<li>ის მაცოცხლებელი</li>
+<li>სულია დღეს ჩემში.</li>
+<li>ამ სულში ვცემთ თაყვანს.</li>
+<li>ძლიერ ვაქებ, მიყვარს,</li>
+<li>ძვირფას უფალს!</li>
+</ul>
+</section>
+</main>
+`
+	},
+	{
+		title: title = 'როგორ გვიყვარს იესოს',
+		num: num = 64,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3></h3>
+<h4></h4>
+<span>(ინგ. 1086)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>დიდებული სახელი!</li>
+<li>უზენაესი მიწაზე და ცაზე.</li>
+<li>როცა ვსუნთქავთ მის სახელს,</li>
+<li>სიბნელე, სიკვდილი ქრება;</li>
+<li>მოვუხმობთ და ვღებულობთ პიროვნებას!</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>იესო, ჩვენი ბაგით</li>
+<li>ვაღიარებთ შენს სახელს;</li>
+<li>ჩვენი მამის დიდების აღსავლენად</li>
+<li>შენი ქება-დიდება,</li>
+<li>ჩვენი დღეების ტკბობაა;</li>
+<li>მოვუხმობთ იესოს, ვინც ასე გვიყვარს!</li>
+</ul>
+</section>
+</main>
+`
+	},
+	{
+		title: title = 'უსასრულო წარსულიდან,',
+		num: num = 65,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3></h3>
+<h4></h4>
+<span>(ინგ. 81)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>უფალო, დღენით ძველი ხარ!</li>
+<li>მარადიული მამა ხარ,</li>
+<li>მარადარსებული "მე ვარ"!</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>ადამიანად მოხვედი,</li>
+<li>თუმც მარად ღმერთთან მყოფი ხარ;</li>
+<li>შენშია ღმერთის სისავსე,</li>
+<li>ღმერთივით უსასრულო ხარ.</li>
+</ul>
+</section>
+<section>
+<span class="number">3.</span>
+<ul>
+<li>ყველაფრით, ყოვლის წინარე,</li>
+<li>სამყაროს შექმნამდე შენ ხარ!</li>
+<li>ახალთა შორის ახალი,</li>
+<li>ძველთაგან უძველესი ხარ!</li>
+</ul>
+</section>
+<section>
+<span class="number">4.</span>
+<ul>
+<li>უფალო, მარად უცვლელო,</li>
+<li>უშრეტია შენი წლები!</li>
+<li>შენებრ მარად არვინ რჩება,</li>
+<li>შენს მერე არვინ არს მეტი.</li>
+</ul>
+</section>
+<section>
+<span class="number">5.</span>
+<ul>
+<li>მამისგან არ განირჩევი,</li>
+<li>მასავით სრულყოფილი ხარ!</li>
+<li>შენ ხარ ალფა, ხარ პირველი</li>
+<li>ომეგა, უკანასკნელი.</li>
+</ul>
+</section>
+<section>
+<span class="number">6.</span>
+<ul>
+<li>გაქებთ უშრეტი წლებისთვის,</li>
+<li>უსაზღვრო, განუზომი ხარ!</li>
+<li>გვხიბლავს შენი სილამაზე,</li>
+<li>გვაოცებს შენი სივრცელე!</li>
+</ul>
+</section>
+</main>
+`
+	},
+	{
+		title: title = 'მარად ცოცხალი,',
+		num: num = 66,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3></h3>
+<h4></h4>
+<span>(ინგ. 82)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>დიდებიდან დაბლა,</li>
+<li>ღმერთი ჩამოვიდა,</li>
+<li>იესო სახელად.</li>
+<li>იშვა ბაგაში,</li>
+<li>ვით უცხო თვის სახლში,</li>
+<li>მწუხარების, აგონიის კაცი.</li>
+<li class="chorus chorus-top">ო, როგორ მიყვარს,</li>
+<li class="chorus">როგორ ვაღმერთებ,</li>
+<li class="chorus"სუნთქვაა, მზეა,></li>
+<li class="chorus">ყველაფერი;</li>
+<li class="chorus">ცის შემოქმედი</li>
+<li class="chorus">არს ჩემი მხსნელი,</li>
+<li class="chorus">სისავსე ღვთისა</li>
+<li class="chorus chorus-bottom">მკვიდრობს მასში</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>რა წყალობაა</li>
+<li>ო, რა გამოსყიდვა,</li>
+<li>ოდეს ბნელში მყოფებს,</li>
+<li>იმედი არ გვქონდა.</li>
+<li>მოწყალე ღმერთმა</li>
+<li>დათმო ბრწყინვალება,</li>
+<li>დამდაბლდა, რომ ჩემი მშვინვა ეხსნა.</li>
+<li class="chorus chorus-top">ო, როგორ მიყვარს,</li>
+<li class="chorus">როგორ ვაღმერთებ,</li>
+<li class="chorus"სუნთქვაა, მზეა,></li>
+<li class="chorus">ყველაფერი;</li>
+<li class="chorus">ცის შემოქმედი</li>
+<li class="chorus">არს ჩემი მხსნელი,</li>
+<li class="chorus">სისავსე ღვთისა</li>
+<li class="chorus chorus-bottom">მკვიდრობს მასში</li>
+</ul>
+</section>
+<section>
+<span class="number">3.</span>
+<ul>
+<li>უყოყმანოდ ის</li>
+<li>სისხლ-ხორცს ეზიარა,</li>
+<li>ჩვენი მსგავსი გახდა,</li>
+<li>გეგმა გაგვიმხილა.</li>
+<li>ო, საიდუმლო,</li>
+<li>მსხვერპლი გოლგოთაზე,</li>
+<li>ვიცი, რომ შენ ხარ დიადი "მე ვარ".</li>
+<li class="chorus chorus-top">ო, როგორ მიყვარს,</li>
+<li class="chorus">როგორ ვაღმერთებ,</li>
+<li class="chorus"სუნთქვაა, მზეა,></li>
+<li class="chorus">ყველაფერი;</li>
+<li class="chorus">ცის შემოქმედი</li>
+<li class="chorus">არს ჩემი მხსნელი,</li>
+<li class="chorus">სისავსე ღვთისა</li>
+<li class="chorus chorus-bottom">მკვიდრობს მასში</li>
+</ul>
+</section>
+</main>
+`
+	},
+	{
+		title: title = 'ანგელოზნი მღერიან,',
+		num: num = 67,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3></h3>
+<h4></h4>
+<span>(ინგ. 84)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>დიდება შობილ მეფეს!</li>
+<li>მასში ღმერთთან შევრიგდით,</li>
+<li>მადლი, მშვიდობა სუფევს.</li>
+<li>სიხარულით ადექით,</li>
+<li>ცის ტრიუმფს შეუერთდით!</li>
+<li>ზეცის ჯარი აცხადებს:</li>
+<li>"უფალი იშვა ბეთლემს!"</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>ზეცა აღმერთებს ქრისტეს</li>
+<li>უფალს, მარადიულ ღმერთს,</li>
+<li>აჰა, დროში მოვიდა,</li>
+<li>ქალწულისგან რომ იშვა.</li>
+<li>სხეულით შემოსილი,</li>
+<li>ღვთაების განკაცება,</li>
+<li>კაცთა შორის დამკვიდრდა</li>
+<li>ღმერთი ემანუელი.</li>
+</ul>
+</section>
+<section>
+<span class="number">3.</span>
+<ul>
+<li>ის მშვიდობის პრინცია,</li>
+<li>სამართლიანობის მზე;</li>
+<li>სინათლეა, სიცოცხლე,</li>
+<li>განვიკურნეთ მის ფრთებზე;</li>
+<li>ჩვენთვის დიდება დათმო,</li>
+<li>მოვიდა, რომ ვიცოცხლოთ;</li>
+<li>დაიბადა, კვლავ რომ გვშვას,</li>
+<li>მრავალი ძე წარმოშვას.</li>
+</ul>
+</section>
+<section>
+<span class="number">4.</span>
+<ul>
+<li>ერების სასურველო,</li>
+<li>მოდი! სახლი მოიწყვე:</li>
+<li>ქალის თესლი აღმართე,</li>
+<li>გველს თავი გაუჭეჭყე;</li>
+<li>ადამი გააუქმე,</li>
+<li>შენს სახებად აღგვბეჭდე,</li>
+<li>უკანასკნელო ადამ!</li>
+<li>სიყვარულში აღგვადგენ!</li>
+</ul>
+</section>
+</main>
+`
+	},
+	{
+		title: title = 'თუმც დიდებული ღმერთი ხარ,',
+		num: num = 68,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3></h3>
+<h4></h4>
+<span>(ინგ. 86)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>ხორცში მოხვედ, ახლოს იყავ;</li>
+<li>რა თავმდაბალი კაცი ხარ,</li>
+<li>უფალო, გიხსენებ!</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>ღვთიური დიდება დათმე,</li>
+<li>ხორცის კარავში იცხოვრე;</li>
+<li>არ გქონია სილამაზე,</li>
+<li>უფალო, გიხსენებ!</li>
+</ul>
+</section>
+<section>
+<span class="number">3.</span>
+<ul>
+<li>ფესვი ურწყული მიწიდან -</li>
+<li>შენ მწუხარების კაცი ხარ;</li>
+<li>მოძულებულო კაცთაგან,</li>
+<li>უფალო, გიხსენებ!</li>
+</ul>
+</section>
+<section>
+<span class="number">4.</span>
+<ul>
+<li>რბილი, თავმდაბალი გულით -</li>
+<li>იყავ თავგანწირვისთვის მზად;</li>
+<li>არ ჩიოდი ღმერთთან, კაცთან</li>
+<li>უფალო, გიხსენებ!</li>
+</ul>
+</section>
+<section>
+<span class="number">5.</span>
+<ul>
+<li>ნაზი და ტკბილი ხარ კაცი,</li>
+<li>პურეულ ძღვენი მამისთვის;</li>
+<li>გაწონასწორებული ხარ,</li>
+<li>უფალო, გიხსენებ!</li>
+</ul>
+</section>
+<section>
+<span class="number">6.</span>
+<ul>
+<li>მამის ნებას ასრულებდი,</li>
+<li>სატანა ვერ გატყუებდა;</li>
+<li>იყავ ერთგული და ბრძენი,</li>
+<li>უფალო, გიხსენებ!</li>
+</ul>
+</section>
+<section>
+<span class="number">7.</span>
+<ul>
+<li>მამის ნებას მორჩილობდი,</li>
+<li>სიკვდილის ტანჯვა იტვირთე!</li>
+<li>ჯვარზე ჩემს ნაცვლად ახვედი,</li>
+<li>უფალო, გიხსენებ!</li>
+</ul>
+</section>
+<section>
+<span class="number">8.</span>
+<ul>
+<li>ღმერთმაც აღგამაღლა, მოგცა</li>
+<li>დიდება და ბრწყინვალება;</li>
+<li>მუხლს მოიდრეკს ცა და მიწა,</li>
+<li>უფალო, გცემ თაყვანს!</li>
+</ul>
+</section>
+</main>
+`
+	},
+	{
+		title: title = 'მიწაზე შენს გავლილ ბილიკს,',
+		num: num = 69,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3></h3>
+<h4></h4>
+<span>(ინგ. 87)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>ვუცქერით, უფალო -</li>
+<li>კაცთათვის მადლს და სიყვარულს,</li>
+<li>ღვთისთვის ერთგულებას.</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>სიყვარულმა შენმა სძლია,</li>
+<li>სიძულვილს და სამარხს;</li>
+<li>შუბით ჯვარზე ჩვენს სახსნელად,</li>
+<li>შენ სისხლი დაღვარე.</li>
+</ul>
+</section>
+<section>
+<span class="number">3.</span>
+<ul>
+<li>თუმცა განვლე მწუხარება,</li>
+<li>მუდამ კარგს იქმოდი;</li>
+<li>ტანჯვით სავსე სიცოცხლეში,</li>
+<li>სულაც არ დრტვინავდი.</li>
+</ul>
+</section>
+<section>
+<span class="number">4.</span>
+<ul>
+<li>ერთგულო ორგულთა შორის,</li>
+<li>ბნელეთში, ნათელო;</li>
+<li>მამის სახელს ადიდებდი,</li>
+<li>მის ნებას იქმოდი.</li>
+</ul>
+</section>
+<section>
+<span class="number">5.</span>
+<ul>
+<li>ეშმაკის ხრიკმა და ტანჯვამ -</li>
+<li>ვერც ერთმა გაგტეხა;</li>
+<li>შენს ბილიკს ჯვრისკენ მიჰყავდი,</li>
+<li>სოფელი ვერ გძლევდა.</li>
+</ul>
+</section>
+<section>
+<span class="number">6.</span>
+<ul>
+<li>გვაკვირვებს შენი გონება,</li>
+<li>გვსურს ვიყოთ შენსავით;</li>
+<li>ტკბობას და შვებას ვიღებდეთ,</li>
+<li>მოწაფედ ყოფნაში.</li>
+</ul>
+</section>
+</main>
+`
+	},
+	{
+		title: title = 'უფალო, გიმღერით შენ!',
+		num: num = 70,
+		page: `
+<h2 class="hNum">${num}</h2>
+<h3></h3>
+<h4></h4>
+<span>(ინგ. 90)</span>
+<main class="full-hymn">
+<section>
+<span class="number">1.</span>
+<ul>
+<li>${title}</li>
+<li>გიძღვნით ქება-დიდებას;</li>
+<li>შენ ხარ მადლით აღსავსე,</li>
+<li>წმიდა და კეთილი ხარ.</li>
+</ul>
+</section>
+<section>
+<span class="number">2.</span>
+<ul>
+<li>დიდებულო, დამდაბლდი,</li>
+<li>გახდი ჩვენი იმედი;</li>
+<li>ჩვენ გამო გაღარიბდი,</li>
+<li>რომ ჩვენ გავმდიდრდეთ შენით.</li>
+</ul>
+</section>
+<section>
+<span class="number">3.</span>
+<ul>
+<li>მაღლა ცა რად დატოვე?</li>
+<li>რად მოხვედი მიწაზე?</li>
+<li>ტანჯვა რად აირჩიე,</li>
+<li>სიკვდილი, დამცირება?</li>
+</ul>
+</section>
+<section>
+<span class="number">4.</span>
+<ul>
+<li>ცაში ხარ დიდებული,</li>
+<li>მიწაზე _ განდევნილი;</li>
+<li>იცოდი, რაც გელოდა,</li>
+<li>ჩვენი ტანჯვა იტვირთე.</li>
+</ul>
+</section>
+<section>
+<span class="number">5.</span>
+<ul>
+<li>სიყვარულზე რომ ვფიქრობთ,</li>
+<li>ვხარობთ და ვმორცხვობთ გულში;</li>
+<li>ვხარობთ წყალობისათვის,</li>
+<li>გვრცხვენია ურჩობისთვის.</li>
+</ul>
+</section>
+<section>
+<span class="number">6.</span>
+<ul>
+<li>გვაქვს იმედი, ერთ დღესაც,</li>
+<li>თავისუფლებას ვპოვებთ;</li>
+<li>დიდებაში შესულნი,</li>
+<li>ჯეროვნად გემსახუროთ.</li>
+</ul>
+</section>
+<section>
+<span class="number">7.</span>
+<ul>
+<li>უფალო, გელოდებით,</li>
+<li>ნეტარ იმედს მოველით;</li>
+<li>და სანამ დაბრუნდები,</li>
+<li>ვცხოვრობდეთ მხოლოდ შენთვის.</li>
+</ul>
+</section>
+</main>
+`
+	},
 ];
 
 
